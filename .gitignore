@@ -1,0 +1,53 @@
+# -----------------------------------------------------------------------------
+# Node.js y Dependencias
+# -----------------------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# -----------------------------------------------------------------------------
+# Archivos de Appium y Logs de Ejecución
+# -----------------------------------------------------------------------------
+*.log
+appium.log
+.appium/
+
+# -----------------------------------------------------------------------------
+# Evidencias y Archivos Generados en Pruebas
+# -----------------------------------------------------------------------------
+# Si tus pruebas generan capturas de pantalla, videos o reportes dinámicos
+reports/
+screenshots/
+videos/
+coverage/
+
+# -----------------------------------------------------------------------------
+# Aplicaciones de Prueba (Opcional)
+# -----------------------------------------------------------------------------
+# Ignora las APKs para no subir archivos pesados al repositorio git.
+# Mantén esta regla si descargas APKs temporalmente en tu proyecto.
+*.apk
+*.aab
+*.zip
+
+# -----------------------------------------------------------------------------
+# Archivos del Sistema Operativo y Editores (Linux & VSCode)
+# -----------------------------------------------------------------------------
+# Archivos ocultos de Linux
+.DS_Store
+.directory
+*~
+
+# Configuraciones locales de VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Archivos de entorno local con credenciales o IP configuradas
+.env
+.env.local
